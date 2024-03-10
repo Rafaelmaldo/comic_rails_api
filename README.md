@@ -1,25 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README provides information on setting up and running the application.
 
-Things you may want to cover:
+## Steps to Follow:
 
-* Ruby version
+1. **Ruby Version:** Ensure you have the required Ruby version installed (`ruby -v`).
+   
+2. **System Dependencies:** Check and install any necessary system dependencies.
 
-* System dependencies
+3. **Configuration:** Configure the application settings as needed.
 
-* Configuration
+4. **Database Setup:**
+   - **Creation:** Create the database (`rails db:create`).
+   - **Initialization:** Initialize the database (`rails db:migrate`).
+   - **Seeding:** Seed the database (`rails db:seed`).
 
-* Database creation
+5. **Running the Test Suite:** Instructions on how to run the test suite.
 
-* Database initialization
+6. **Services:**
+   - Include any services like job queues, cache servers, search engines, etc.
 
-* How to run the test suite
+7. **Deployment Instructions:** Guidelines for deploying the application.
 
-* Services (job queues, cache servers, search engines, etc.)
+Feel free to add more details specific to this repository.
 
-* Deployment instructions
-
-* ...
 # rails_api

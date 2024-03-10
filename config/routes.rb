@@ -5,6 +5,10 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
  
   Rails.application.routes.draw do
-    resources :comicbooks,  only: [:index]
+    resources :comicbooks, only: [:index, :create, :destroy, :update]
+  end
+
+  Rails.application.routes.draw do
+    resources :publishers, only: [:index]
   end
 end

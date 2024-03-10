@@ -10,23 +10,5 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_03_09_201512) do
-  create_table "comicbooks", force: :cascade do |t|
-    t.string "title"
-    t.string "description"
-    t.string "image_url"
-    t.integer "publisher_id"
-    t.integer "number"
-    t.string "artist"
-    t.string "writer"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "publishers", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
+ActiveRecord::Schema[7.1].define(version: 0) do
 end
