@@ -35,6 +35,9 @@ gem "bootsnap", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 gem "rack-cors"
 
+# Use uuid in order to create unique identifiers for records
+gem 'uuid'
+
 # Checks for vulnerable versions of gems in Gemfile.lock
 gem "bundler-audit", require: false
 
