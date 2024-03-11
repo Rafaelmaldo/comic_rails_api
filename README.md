@@ -1,7 +1,3 @@
-# README
-
-This README provides information on setting up and running the application.
-
 ## Steps to Follow:
 
 1. **Ruby Version:** Ensure you have the required Ruby version installed (`ruby -v`).
@@ -15,6 +11,4 @@ This README provides information on setting up and running the application.
 
 4. **Running the Test Suite:** Instructions on how to run the test suite. (`rails sever`)
 
-4. **Clone Frontend repo:** [link to repo](https://github.com/Rafaelmaldo/comic_library)
-
-# rails_api
+5. **Clone Frontend repo:** [link to repo](https://github.com/Rafaelmaldo/comic_library)
